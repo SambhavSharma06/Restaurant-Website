@@ -11,6 +11,7 @@
         <asp:TextBox ID="NameTextBox" runat="server" placeholder="Your Name" CssClass="form-input" />
         <asp:TextBox ID="EmailTextBox" runat="server" placeholder="Your Email" CssClass="form-input" />
         <asp:TextBox ID="PhoneTextBox" runat="server" placeholder="Your Phone Number" CssClass="form-input" />
+
         <asp:DropDownList ID="TableDropdown" runat="server" CssClass="form-input">
             <asp:ListItem Text="Choose Table" Value="" />
             <asp:ListItem Text="Table for 2" Value="2" />
@@ -28,5 +29,6 @@
     <a href="ShowData.aspx" class="Data-float-btn">Data</a>
     <a href="FAQ.aspx" class="FAQ-float-btn">FAQ</a>
 </asp:Content>
+
 
 
